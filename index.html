@@ -83,7 +83,7 @@
             //acá voy por el JSON
 
             async function astros() {
-                const consulta = await fetch("");
+                const consulta = await fetch("https://raw.githubusercontent.com/amijpg/Clase-13/refs/heads/main/datos.json");
                 console.log(consulta)
                 const data = await consulta.json();
                 console.log(data);
