@@ -83,7 +83,7 @@
             //acá voy por el JSON
 
             async function astros() {
-                const consulta = await fetch("https://raw.githubusercontent.com/amijpg/Clase-13/refs/heads/main/datos.json");
+                const consulta = await fetch("");
                 console.log(consulta)
                 const data = await consulta.json();
                 console.log(data);
@@ -91,7 +91,7 @@
                data.forEach((d, i) => (principal.innerHTML += 
                     `<div class="${d.categoria} col">
                         <div class="card text-bg-success mb-60">
-                            <img src="https://raw.github.com/amijpg/Paula-Scher/main/img/${d.foto}" class="card-img-top" alt="">
+                            <img src="https://raw.github.com/amijpg/Clase-13/main/img/${d.foto}" class="card-img-top" alt="">
                                 <div class="card-body">
                                 <p class="card-text" color="bg-success">
                                      <a href="single.html?data=${i}" class="link-info link-light
