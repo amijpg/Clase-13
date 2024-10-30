@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> 🖋️ Paula Scher </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+        <link href="style.css" rel="stylesheet" />
+
+    </head>
+    <body class="bg-success bg-opacity-75">
+        <div class="collapse text-bg-success "  id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="fw-semibold"> ABOUT</h4>
+                        <p class="text-white fw-light"  >En este pequeño repositorio podremos explorar algunos de los trabajos más representativos de Paula Scher, una de las figuras más influyentes del diseño gráfico contemporáneo. Con más de cuatro décadas de trayectoria, Scher ha transformado la percepción de la tipografía y el diseño visual en identidades corporativas, carteles y espacios públicos. Su estilo se distingue por el uso audaz de la tipografía, donde combina formas y colores para crear composiciones que desafían las normas tradicionales y capturan la esencia de cada proyecto.
+
+                        Además, puedes conocer más sobre su carrera y enfoque creativo a través de su perfil en Pentagram, donde es socia desde 1991. También puedes ver su capítulo en la serie de Netflix Abstract: The Art of Design, que explora en profundidad su proceso y legado en el mundo del diseño.</p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4>SABER MÁS</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="https://www.pentagram.com/about/paula-scher" target="_blank" class="text-white">Pentagram</a></li>
+                            <ul class="list-unstyled">
+                                <li><a href="https://www.netflix.com/watch/80093802?trackId=14277283&tctx=-97%2C-97%2C%2C%2C%2C%2C%2C%2C80057883%2CVideo%3A80093802%2CdetailsPageEpisodePlayButton" class="text-white">Abstrac: The Art of Desing</a></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar bg-success shadow-sm">
+            <div class="container">
+                <a href="#" class="navbar-brand d-flex align-items-center  ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eyedropper" viewBox="0 0 16 16" color="white">
+                        <path d="M13.354.646a1.207 1.207 0 0 0-1.708 0L8.5 3.793l-.646-.647a.5.5 0 1 0-.708.708L8.293 5l-7.147 7.146A.5.5 0 0 0 1 12.5v1.793l-.854.853a.5.5 0 1 0 .708.707L1.707 15H3.5a.5.5 0 0 0 .354-.146L11 7.707l1.146 1.147a.5.5 0 0 0 .708-.708l-.647-.646 3.147-3.146a1.207 1.207 0 0 0 0-1.708zM2 12.707l7-7L10.293 7l-7 7H2z"/>
+                    </svg>
+
+                    <light class="text-light" > Diseño </light>
+                    
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+
+        <header class="container text-center my-5">
+            <p class="titulo-principal">Algunas piezas del <span class="fw-semibold fst-italic">arte de</span></p>
+            <h1 class="titulo-destacado"></h1>
+            <select class="form-select my-3">
+                <option value="todos">Todas</option>
+                <option value="Branding">Branding</option>
+                <option value="Carteles">Carteles</option>
+                <option value="Editorial">Editorial</option>
+                <option value="Arquitectura">Arquitectura Gráfica</option>
+            </select>
+        </header>
+
+        <div class="container text-center">
+            <main class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-2 g-lg-3"></main> 
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        </div>
+
+
+        <script>
+            //unas variables que no varían, que son constantes:
+
+            const nombre = "Paula Scher";
+
+            const autoria = document.querySelector("h1");
+
+            autoria.innerHTML = nombre;
+
+            const principal = document.querySelector("main");
+
+            const seleccion = document.querySelector("select");
+
+            //acá voy por el JSON
+
+            async function astros() {
+                const consulta = await fetch("https://raw.githubusercontent.com/amijpg/Clase-13/refs/heads/main/datos.json");
+                console.log(consulta)
+                const data = await consulta.json();
+                console.log(data);
+
+               data.forEach((d, i) => (principal.innerHTML += 
+                    `<div class="${d.categoria} col">
+                        <div class="card text-bg-success mb-60">
+                            <img src="https://raw.github.com/amijpg/Paula-Scher/main/img/${d.foto}" class="card-img-top" alt="">
+                                <div class="card-body">
+                                <p class="card-text" color="bg-success">
+                                     <a href="single.html?data=${i}" class="link-info link-light
+                                        link-offset-2 link-offset-3-hover 
+                                        link-underline link-underline-success link-underline-opacity-0
+                                        link-underline-opacity-25-hover stretched-link">${d.nombre}</a>
+                                </p>
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <small class="text-body-secondary ">${d.artista}</small>
+                                    <small class="text-body-secondary">${d.fecha}</small>
+                                </div>
+                                </div>     
+                            </div>
+                    </div>`));
+
+
+                seleccionables();
+
+
+                seleccionables();
+            }
+
+            astros().catch((error) => console.error(error));
+
+            //lo que sigue es una función que ejecuto dentro de astros()
+
+            var valor;
+
+            function seleccionables() {
+                seleccion.addEventListener("change", (e) => {
+                    document.querySelectorAll(".col").forEach((t) => t.classList.add("d-none"));
+                    valor = e.target.value;
+                    if (valor !== "todos") {
+                        document.querySelectorAll(`.${valor}`).forEach((t) => t.classList.remove("d-none"));
+                    } else {
+                        document.querySelectorAll("div").forEach((t) => t.classList.remove("d-none"));
+                    }
+                });
+            }
+        </script>
+    </body>
+</html>
