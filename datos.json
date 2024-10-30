@@ -1,0 +1,180 @@
+[
+    {
+        "nombre": "New Jersey Performing Arts Center (NJPAC)",
+        "descripcion": "Paula Scher diseñó una identidad visual vibrante para el NJPAC, que incluye una tipografía personalizada llamada NJPAC Sans, acompañada de un esquema de colores atrevido. El diseño refleja la diversidad de los eventos y actuaciones del centro, desde óperas hasta espectáculos de comedia. El objetivo de la identidad visual fue atraer tanto a audiencias jóvenes como a adultos, unificando la comunicación gráfica del NJPAC bajo un estilo coherente y visualmente impactante.",
+        "fecha": "2017",
+        "artista": "Paula Scher",
+        "foto": "njpac_identity.png",
+        "fotos": [
+            "njpac_identity1.png",
+            "njpac_identity2.png",
+            "njpac_identity3.png",
+            "njpac_identity4.png",
+            "njpac_identity5.png",
+            "njpac_identity6.png",
+            "njpac_identity7.png"
+        ],
+        "categoria": "Branding"
+    },
+    {
+        "nombre": "Citibank Logo",
+        "descripcion": "El logo de Citibank fue creado en un encuentro de 10 minutos en una servilleta, donde Paula Scher esbozó el famoso arco rojo que simboliza la fusión entre Citicorp y Travelers Group. Este diseño no solo consolidó una identidad gráfica icónica para la institución financiera, sino que también se convirtió en un símbolo de modernidad y dinamismo dentro del mundo corporativo. Hoy en día, es uno de los logos más reconocibles a nivel mundial.",
+        "fecha": "1998",
+        "artista": "Paula Scher",
+        "foto": "citibank_logo.png",
+        "fotos": [
+            "citibank_logo1.png",
+            "citibank_logo2.png",
+            "citibank_logo3.png",
+            "citibank_logo4.png",
+            "citibank_logo5.png"
+        ],
+        "categoria": "Branding"
+    },
+    {
+        "nombre": "Windows 8 Logo",
+        "descripcion": "Scher transformó el logo de Windows, eliminando el antiguo estilo 3D en favor de un diseño plano, minimalista y moderno. El nuevo logotipo reflejaba la simplicidad y funcionalidad del sistema operativo Windows 8, utilizando líneas claras y un enfoque en la usabilidad. Este diseño marcó una nueva etapa para la marca, alineándola con las tendencias contemporáneas del diseño gráfico.",
+        "fecha": "2012",
+        "artista": "Paula Scher",
+        "foto": "windows8_logo.png",
+        "fotos": [
+            "windows8_logo1.png",
+            "windows8_logo2.png",
+            "windows8_logo3.png",
+            "windows8_logo4.png"
+        ],
+        "categoria": "Branding"
+    },
+    {
+        "nombre": "Shakespeare in the Park",
+        "descripcion": "Este cartel, diseñado para la temporada de Shakespeare in the Park del Public Theater, es una representación vibrante de la energía teatral de la serie de obras. Paula Scher utilizó tipografía experimental y colores vivos para captar la esencia dinámica de las actuaciones al aire libre. Su trabajo estableció un nuevo estándar en la forma de comunicar eventos culturales de una manera audaz y accesible.",
+        "fecha": "1994",
+        "artista": "Paula Scher",
+        "foto": "public_theater_poster.png",
+        "fotos": [
+            "poster1.png",
+            "poster2.png",
+            "poster3.png",
+            "poster4.png"
+        ],
+        "categoria": "Carteles"
+    },
+    {
+        "nombre": "Bring in 'Da Noise, Bring in 'Da Funk Poster",
+        "descripcion": "Paula Scher diseñó este cartel para la producción teatral 'Bring in 'Da Noise, Bring in 'Da Funk', una obra que mezcla danza, historia y música afroamericana. Utilizando tipografía audaz y colores vibrantes, Scher reflejó la intensidad y dinamismo de la obra, que fue un hito cultural en Broadway, destacándose por su capacidad de capturar la esencia del espectáculo en un diseño gráfico impactante.",
+        "fecha": "1995",
+        "artista": "Paula Scher",
+        "foto": "noise_funk_poster.png",
+        "fotos": [
+            "noise_funk_poster1.png",
+            "noise_funk_poster2.png",
+            "noise_funk_poster3.png",
+            "noise_funk_poster4.png"
+        ],
+        "categoria": "Carteles"
+    },
+    {
+        "nombre": "MoMA Poster Design",
+        "descripcion": "Paula Scher diseñó un sistema de identidad visual para el MoMA que incluyó un uso dramático de imágenes y recortes tipográficos, combinados con una paleta de colores brillante para crear una imagen contemporánea y poderosa. Estos carteles y pancartas se utilizaron para comunicar las exposiciones y eventos del museo, modernizando la identidad del MoMA y haciéndolo más accesible a una audiencia más amplia.",
+        "fecha": "2009",
+        "artista": "Paula Scher",
+        "foto": "moma_poster.png",
+        "fotos": [
+            "moma_poster1.png",
+            "moma_poster2.png",
+            "moma_poster3.png",
+            "moma_poster4.png"
+        ],
+        "categoria": "Carteles"
+    },
+    {
+        "nombre": "MAPS Series",
+        "descripcion": "Esta serie de pinturas a gran escala creada por Paula Scher representa mapas del mundo llenos de detalles políticos, sociales y geográficos. Scher utiliza tipografía y colores audaces para ilustrar la división global de poder y la geopolítica, con un enfoque único que refleja su interés tanto en el diseño gráfico como en la cartografía.",
+        "fecha": "1998 - Actualidad",
+        "artista": "Paula Scher",
+        "foto": "maps_series.png",
+        "fotos": [
+            "maps1.png",
+            "maps2.png",
+            "maps3.png"
+        ],
+        "categoria": "Editorial"
+    },
+    {
+        "nombre": "25 Years at the Public: A Love Story",
+        "descripcion": "Paula Scher diseñó esta obra editorial para celebrar los 25 años de su colaboración con el Public Theater. El libro presenta una narrativa visual que muestra los icónicos trabajos de Scher, incluyendo carteles, programas y materiales gráficos. Con una tipografía audaz y un diseño dinámico, el libro refleja su larga y fructífera relación con la institución.",
+        "fecha": "2019",
+        "artista": "Paula Scher",
+        "foto": "public_love_story.png",
+        "fotos": [
+            "public_love_story1.png",
+            "public_love_story2.png",
+            "public_love_story3.png",
+            "public_love_story4.png",
+            "public_love_story5.png",
+            "public_love_story6.png"
+        ],
+        "categoria": "Editorial"
+    },
+    {
+        "nombre": "Make It Bigger",
+        "descripcion": "En su libro 'Make It Bigger', Paula Scher ofrece una mirada retrospectiva a tres décadas de su carrera como diseñadora gráfica. Publicado por Princeton Architectural Press, el libro incluye más de 200 ejemplos de su trabajo, junto con ensayos y diagramas que ilustran el proceso de diseño y su relación con el entorno corporativo y cultural.",
+        "fecha": "2002",
+        "artista": "Paula Scher",
+        "foto": "make_it_bigger.png",
+        "fotos": [
+            "make_it_bigger1.png",
+            "make_it_bigger2.png",
+            "make_it_bigger3.png",
+            "make_it_bigger4.png",
+            "make_it_bigger5.png"
+        ],
+        "categoria": "Editorial"
+    },
+    {
+        "nombre": "Environmental Graphics Bloomberg Building",
+        "descripcion": "Paula Scher diseñó la señalización y gráficos ambientales para el edificio de Bloomberg en Nueva York, creando una experiencia visual inmersiva para los visitantes. Su enfoque audaz con tipografía de gran tamaño y el uso de colores brillantes ayudaron a integrar los gráficos en la arquitectura moderna del edificio.",
+        "fecha": "2011",
+        "artista": "Paula Scher",
+        "foto": "bloomberg_building.png",
+        "fotos": [
+            "bloomberg1.png",
+            "bloomberg2.png",
+            "bloomberg3.png",
+            "bloomberg4.png",
+            "bloomberg5.png",
+            "bloomberg6.png"
+        ],
+        "categoria": "Arquitectura Gráfica"
+    },
+    {
+        "nombre": "Señalización para el Children’s Museum of Pittsburgh",
+        "descripcion": "Paula Scher diseñó un sistema de señalización vibrante y accesible para el Children’s Museum of Pittsburgh. Utilizando una tipografía llamativa y gráficos coloridos, creó un entorno acogedor y educativo que invita a la exploración y aprendizaje en los jóvenes visitantes.",
+        "fecha": "2004",
+        "artista": "Paula Scher",
+        "foto": "pittsburgh_museum.png",
+        "fotos": [
+            "pittsburgh_museum1.png",
+            "pittsburgh_museum2.png",
+            "pittsburgh_museum3.png",
+            "pittsburgh_museum4.png",
+            "pittsburgh_museum5.png",
+            "pittsburgh_museum6.png"
+        ],
+        "categoria": "Arquitectura Gráfica"
+    },
+    {
+        "nombre": "Señalización del High Line, Nueva York",
+        "descripcion": "Paula Scher diseñó una señalización minimalista pero impactante para el High Line, un parque elevado en Nueva York. Utilizando colores contrastantes y tipografía legible, los gráficos complementan la experiencia paisajística del espacio y guían a los visitantes de manera eficiente por el parque.",
+        "fecha": "2014",
+        "artista": "Paula Scher",
+        "foto": "highline_signage.png",
+        "fotos": [
+            "highline1.png",
+            "highline2.png",
+            "highline3.png",
+            "highline4.png"
+        ],
+        "categoria": "Arquitectura Gráfica"
+    }
+]
